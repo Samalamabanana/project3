@@ -94,7 +94,7 @@ textarea {
    ========================================================================== */
 
 #wrapper {
-	width: 960px;
+	width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -103,28 +103,37 @@ textarea {
 	clear: both;
 }
 
-#nav {
+#branding {
+	height: 85px;
+}
 
+#nav {
+	height:	50pc;
+}
+
+#main {
+	height: 1270px;
 }
 
 #welcome {
-
+	height: 880px;
 }
 
 #chart {
-
+	height: 485px;
 }
 
 #heating {
-
+	height: 403px;
+	background-color: #362f2d;
 }
 
 #cooling {
-
+	height: 403;
 }
 
 #about_us {
-
+	background-color: #362f2d;
 }
 
 /* ==========================================================================
