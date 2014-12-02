@@ -94,7 +94,7 @@ textarea {
    ========================================================================== */
 
 #wrapper {
-	width: 1400px;
+	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -108,7 +108,8 @@ textarea {
 }
 
 #nav {
-	height:	50pc;
+	height:	50px;
+	background-color: #3f8252;
 }
 
 #main {
@@ -125,7 +126,7 @@ textarea {
 
 #heating {
 	height: 403px;
-	background-color: #362f2d;
+	background-color: #eef1f5;
 }
 
 #cooling {
@@ -133,7 +134,7 @@ textarea {
 }
 
 #about_us {
-	background-color: #362f2d;
+	background-color: #eef1f5;
 }
 
 /* ==========================================================================
