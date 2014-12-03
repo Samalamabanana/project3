@@ -112,6 +112,23 @@ textarea {
 	background-color: #3f8252;
 }
 
+#primary_links {
+	height: 50px;
+	line-height: 50px;
+}
+
+#primary_links ul {
+	margin: 0px;
+}
+
+#primary_links li {
+	display: inline;
+}
+
+#primary_links a {
+	text-decoration: none;
+}
+
 #main {
 	height: 1270px;
 }
