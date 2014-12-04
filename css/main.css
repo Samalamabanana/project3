@@ -9,9 +9,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #000;
     font-size: 1em;
     line-height: 1.4;
+    font-family: OpenSans, Sans-Serif;
 }
 
 /*
@@ -104,7 +105,41 @@ textarea {
 }
 
 #branding {
-	height: 85px;
+	height: 75px;
+}
+
+.logo {
+	width: 192px;
+	height: 65px;
+	float: left;
+	margin: 0px;
+}
+
+.contact {
+	height: 65px;
+	float: right;
+	margin: 0px;
+	font-size: 14px;
+}
+
+.contact ul {
+	list-style-type: none;
+	text-align:right;
+}
+
+.contact em {
+	font-style: normal;
+	font-size: 14px;
+	color: #3F8252;
+	margin: 0px;
+}
+
+.bbb {
+	width: 122px;
+	height: 65px;
+	float: right;
+	padding: 16.5px 0px 16.5px 0px;
+	align-content: center;
 }
 
 #nav {
