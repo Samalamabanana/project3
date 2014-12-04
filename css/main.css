@@ -154,14 +154,36 @@ textarea {
 
 #primary_links ul {
 	margin: 0px;
+	padding: 0px;	
 }
 
 #primary_links li {
 	display: inline;
+	margin: 0px;
 }
 
 #primary_links a {
 	text-decoration: none;
+	color: #fff;
+}
+
+#primary_links .first {
+	padding-left: 145px;
+	padding-right: 39px;
+	margin: 0px;
+}
+
+#primary_links .mid {
+	padding-left: 39px;
+	padding-right: 39px;
+	margin: 0px;
+}
+
+
+#primary_links .end {
+	padding-left: 39px;
+	padding-right: 145px;
+	margin: 0px;
 }
 
 #main {
