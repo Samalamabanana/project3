@@ -194,6 +194,14 @@ textarea {
 	height: 880px;
 }
 
+#welcome em {
+	font-family: Helvetica, Sans-serif;
+	font-style: normal;
+	text-align: justify;
+	font-size: 14px;
+	color: #3F8252;
+}
+
 #chart {
 	height: 485px;
 }
