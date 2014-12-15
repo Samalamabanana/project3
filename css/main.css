@@ -191,7 +191,23 @@ textarea {
 }
 
 #welcome {
-	height: 880px;
+	height: 157px;
+}
+
+#welcome p {
+	font-family: Helvetica, Sans-serif;
+	text-align: center;
+	font-size: 35px;
+	color: #5d5d5d;
+	line-height: .8;
+}
+
+#welcome b {
+	font-family: Helvetica, Sans-serif;
+	text-align: center;
+	font-style: normal;
+	font-size: 16px;
+	color: #8f8f8f;
 }
 
 #welcome em {
@@ -202,8 +218,66 @@ textarea {
 	color: #3F8252;
 }
 
+#video {
+	width: 550px;
+	height: 280px;
+	margin-left: 215px;
+	margin-right: 215px;
+}
+
 #chart {
 	height: 485px;
+}
+
+#welcome_left {
+	font-family: OpenSans, Sans-serif;
+	font-size: 14px;
+	float: left;
+	width: 490px;
+}
+
+#welcome_right {
+	font-family: OpenSans, Sans-serif;
+	font-size: 14px;
+	float: right;
+	width: 387px;
+}
+
+#chart {
+	width: 973px;	
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th.tbl_ac {
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	background-color: #2980b9;
+	color: #ffffff;
+	font-family: OpenSans, Sans-serif;
+	width: 25px;
+	height: 25px;	
+}
+
+th.tbl_ht {
+	transform: rotate(-90deg);
+	transform-origin: center center;
+	background-color: #C0392B;
+	color: #ffffff;
+	font-family: OpenSans, Sans-serif;
+}
+
+th, td {
+	
+}
+
+td {
+	padding-left: 28px;
+	text-align: left;
+	width: 318px;
 }
 
 #heating {
@@ -212,7 +286,7 @@ textarea {
 }
 
 #cooling {
-	height: 403;
+	height: 403px;
 }
 
 #about_us {
