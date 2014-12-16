@@ -10,7 +10,7 @@
 
 html {
     color: #000;
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1.4;
     font-family: OpenSans, Sans-Serif;
 }
@@ -95,6 +95,12 @@ textarea {
    ========================================================================== */
 
 #wrapper {
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper2 {
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
@@ -230,14 +236,12 @@ textarea {
 }
 
 #welcome_left {
-	font-family: OpenSans, Sans-serif;
 	font-size: 14px;
 	float: left;
 	width: 490px;
 }
 
 #welcome_right {
-	font-family: OpenSans, Sans-serif;
 	font-size: 14px;
 	float: right;
 	width: 387px;
@@ -257,7 +261,6 @@ th.tbl_ac {
 	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
 	background-color: #2980b9;
 	color: #ffffff;
-	font-family: OpenSans, Sans-serif;
 	width: 25px;
 	height: 25px;	
 }
@@ -267,7 +270,6 @@ th.tbl_ht {
 	transform-origin: center center;
 	background-color: #C0392B;
 	color: #ffffff;
-	font-family: OpenSans, Sans-serif;
 }
 
 th, td {
@@ -283,14 +285,76 @@ td {
 #heating {
 	height: 403px;
 	background-color: #eef1f5;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#heating em {
+	color: #C0392B;
+	letter-spacing: 6px;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.hlp {
+	padding-right: 20px;
+}
+
+.hcp {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.hrp {
+	padding-left: 20px;
 }
 
 #cooling {
 	height: 403px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
+#cooling em {
+	color: #2980B9;
+	letter-spacing: 6px;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.clp {
+	padding-right: 20px;
+}
+
+.ccp {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.crp {
+	padding-left: 20px;
+}
 #about_us {
 	background-color: #eef1f5;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#about_us em {
+	color: #2C2C2C;
+	letter-spacing: 6px;
+	font-style: normal;
+	font-size: 30px;
+}
+
+#row img {
+	width: 130px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
 }
 
 /* ==========================================================================
