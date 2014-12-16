@@ -219,16 +219,19 @@ textarea {
 #welcome em {
 	font-family: Helvetica, Sans-serif;
 	font-style: normal;
-	text-align: justify;
+	letter-spacing: 7px;
 	font-size: 14px;
 	color: #3F8252;
 }
 
 #video {
 	width: 550px;
-	height: 280px;
 	margin-left: 215px;
 	margin-right: 215px;
+}
+
+#video iframe {
+	padding-bottom: 40px;
 }
 
 #chart {
@@ -251,35 +254,44 @@ textarea {
 	width: 973px;	
 }
 table, th, td{
-	border: 1px solid black;
+	border: 1px solid white;
 	border-collapse: collapse;
 }
 
 th.tbl_ac {
-	transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg); /* IE 9 */
-	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
 	background-color: #2980b9;
 	color: #ffffff;
 	width: 25px;
-	height: 25px;	
+	height: 172px;	
+}
+
+th p {
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg); /* IE 9 */
+	-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	letter-spacing: 3px;
+}
+
+th.tbl_rw {
+	background-color: #7f8c8d;
+	color: #ffffff;
+	font-size: 22px;
+	letter-spacing: 4px;
+	text-align: center;
+
 }
 
 th.tbl_ht {
-	transform: rotate(-90deg);
-	transform-origin: center center;
 	background-color: #C0392B;
 	color: #ffffff;
 }
 
-th, td {
-	
-}
-
 td {
 	padding-left: 28px;
+	color: #777777;
 	text-align: left;
 	width: 318px;
+	background-color: #f7f7f7;
 }
 
 #heating {
